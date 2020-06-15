@@ -87,7 +87,37 @@ h4 > a{
 /*Footer*/
 footer
 {
-  background-color: #282525;
+  background-color: #333333;
   color: white;
   padding-top: 15px;
+}
+
+
+/*--------------------------Portfolio-------------*/
+
+#sstech-banner
+{
+  width: 350px;
+
+}
+.member-box
+{
+  /*background-color: red;*/
+}
+.indiviudal-box
+{
+  /*background-color: green;*/
+  margin-top:25px;
+  margin-bottom: 25px; 
+  float: left;
+
+}
+.member-img
+{
+  width: 200px;
+  height: 200px
+}
+.member-decription
+{
+  padding-left: 30px;
 }
