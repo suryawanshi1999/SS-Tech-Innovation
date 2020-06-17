@@ -2,6 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+
+html
+{
+  scroll-behavior: smooth;
+}
 #header-nav
 {
   background-color:#337AB7;
@@ -81,7 +86,7 @@ h4 > a{
 .affix 
 {
     top: 20px;
-    z-index: 9999 !important;
+    z-index: -1 !important;
 }
 
 /*Footer*/
@@ -90,6 +95,7 @@ footer
   background-color: #333333;
   color: white;
   padding-top: 15px;
+    
 }
 
 
@@ -118,7 +124,6 @@ footer
 {
   width: 200px;
   height: 200px;
- 
 }
 .member-decription
 {
@@ -183,4 +188,124 @@ footer
 {
     float: left;
     margin-right: 8px;
+}
+
+/*Personal Portfolio*/
+
+/*breadcrums*/
+/* Style the list */
+ul.breadcrumb {
+  /*padding: 10px 16px;*/
+  list-style: none;
+  /*background-color: #eee;*/
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  /*font-size: 18px;*/
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 5px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #337AB7;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: none;
+}
+/*jumbotron*/
+/*
+.jumbotron
+{
+    height: 100vh;
+    background-image: url(../images/Abhishek%20Kumar%20Singh.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid .jumbotron
+{
+   border-radius: 0px; 
+}*/
+.personal-img-outside
+{
+  width: 120px;
+  height: 120px;
+}
+.personal-img-inside
+{
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+  padding: 2px 2px;
+}
+
+/* Style buttons */
+.downlaod {
+  background-color: #337AB7;
+  border: none;
+  color: white;
+  padding: 10px 38px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+/* Darker background on mouse-over */
+.downlaod:hover {
+  background-color: #337AB0;
+    color: white;
+}
+
+/*My work button*/
+.my-work
+{
+    background-color: white;
+    color: black;
+    border:1px solid grey; 
+}
+.my-work:hover
+{
+    background-color: white;
+    color: black;
+    border:1px solid grey; 
+}
+/*MY Services*/
+.service-logo
+{
+    
+}
+
+/*Accordion*/
+.panel-group 
+{
+    margin-bottom: 0px;
+}
+.panel
+{
+    background-color: white;
+}
+.panel-default>.panel-heading
+{
+    background-color:#F2F3F7;
+}
+.panel-heading 
+{
+    padding: 15px 20px;
+    background-color: #F2F3F7;
+}
+.panel-title 
+{
+    font-size: 18px;
 }
