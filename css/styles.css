@@ -67,6 +67,7 @@ h1 > span
   }
 }
 
+
 .progress-container 
 {
   width: 100%;
@@ -309,3 +310,16 @@ ul.breadcrumb li a:hover {
 {
     font-size: 18px;
 }
+/********Blogs*/
+.blogs-img
+{
+    
+}
+.content-date
+{
+    background-color: #337AB7;
+    color: white;
+    padding:5px 15px;
+}
+
+/*******Contact us*******/
